@@ -8,9 +8,146 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 24px;
 }
 
+.color-red{
+    color: #ff1616;
+}
+
+.color-white{
+    color: white;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.background-block{
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 110px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.grassetto{
+    font-weight: bold;
+}
+
+.display-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.flex-row{
+    flex-direction: row;
+}
+
+.title{
+    font-size: 52px;
+}
+
+.image{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.geneic-block .textContainer{
+    width: 80%;
+}
+
+.btnPrenota {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnPrenota p {
+    background-color: #ff1616;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
 .firstViewed{
+    align-items: flex-start;
+    justify-content: flex-start;
     background-image: url("../Assets/images/sfondoHome.webp");
+}
+
+.firstViewed .title {
+    font-size: 100px;
+    line-height: 100px;
+}
+
+.firstViewed .textContainer{
+    margin-top: 5.8%;
+    margin-left: 5.8%;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.blog.btn {
+    width: 22em;
+    height: 5em;
+    margin-top: 60px;
+}
+
+.blog.btn .image {
+    background-image: url("../../src/Assets/images/cerca.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blog.btn p{
+    margin: 0;
+    font-size: 30px;
+    margin-top: -45px;
+}
+
+.immagineCucina{
+    background-image: url("../Assets/images/sfondoSlide3.webp");
+}
+
+.prenota{
+    justify-content: space-between;
+}
+
+.prenota .container{
+    height: 100%;
+}
+
+.prenota .image{
+    background-image: url("../Assets/images/io.webp");
+    height: 100%;
+}
+
+.prenota .col1{
+    flex: 1;
+    height: 100%;
+}
+
+.prenota .col2{
+    flex: 1;
+}
+
+.prenota .textContainer{
+    padding: 80px;
 }
