@@ -151,3 +151,31 @@
 .prenota .textContainer{
     padding: 80px;
 }
+
+.adatta .image{
+    background-image: url("../Assets/images/check.webp");
+    height: 100%;
+}
+
+.adatta .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.adatta .textContainer{
+    width: 70%;
+    margin-left: -20%;
+}
+
+.adatta .col1{
+    flex: 1;
+    height: 70px;
+}
+.adatta .col2{
+    flex: 3;
+}
+.immagineBagno{
+    background-image: url("../Assets/images/bagno.webp");
+}

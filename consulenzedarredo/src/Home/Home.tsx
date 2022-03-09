@@ -77,6 +77,64 @@ class Home extends React.Component<HomeProps> {
                     </div>
                 </div>
             </div>
+            <div className={"adatta default-block-size flex-column"}>
+                <p className={"title color-red"}>
+                    E' adatta a te se...
+                </p>
+                <div className={"textContainer"}>
+                    <div className={"row"}>
+                        <div className={"col1"}>
+                            <div className={"image"}/>
+                        </div>
+                        <div className={"col2 text-center"}>
+                            <p>
+                                stai comprando/hai comprato casa e vorresti suddividere gli spazi al meglio
+                            </p>
+                        </div>
+                    </div>
+                    <div className={"row"}>
+                        <div className={"col1"}>
+                            <div className={"image"}/>
+                        </div>
+                        <div className={"col2 text-center"}>
+                            <p>
+                                vuoi capire come sarà suddivisa e arredata la tua casa grazie ad un progetto in 3D
+                            </p>
+                        </div>
+                    </div>
+                    <div className={"row"}>
+                        <div className={"col1"}>
+                            <div className={"image"}/>
+                        </div>
+                        <div className={"col2 text-center"}>
+                            <p>
+                                vuoi mantenere gli arredi che hai, senza cambiarli, ma non sai come e dove posizionarli
+                            </p>
+                        </div>
+                    </div>
+                    <div className={"row"}>
+                        <div className={"col1"}>
+                            <div className={"image"}/>
+                        </div>
+                        <div className={"col2 text-center"}>
+                            <p>
+                                hai bisogno di ridistribuire i tuoi spazi
+                            </p>
+                        </div>
+                    </div>
+                    <div className={"row"}>
+                        <div className={"col1"}>
+                            <div className={"image"}/>
+                        </div>
+                        <div className={"col2 text-center"}>
+                            <p>
+                                vuoi scoprire se una casa fa a caso tuo e ti serve l'idea giusta in visuale 2D e 3D per capirlo
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className={"geneic-block default-block-size immagineBagno"}/>
         </>);
     }
 
