@@ -1,0 +1,16 @@
+.default-block-size {
+    height: calc(100vh);
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.firstViewed{
+    background-image: url("../Assets/images/sfondoHome.webp");
+}
