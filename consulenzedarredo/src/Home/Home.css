@@ -128,20 +128,26 @@
 
 .prenota{
     justify-content: space-between;
+    background-image: url("../Assets/images/sfondo3.webp");
 }
 
 .prenota .container{
     height: 100%;
+    width: 100%;
 }
 
 .prenota .image{
-    background-image: url("../Assets/images/io.webp");
-    height: 100%;
+    background-image: url("../Assets/images/immagine1.webp");
+    height: 800px;
+    width: 800px;
 }
 
 .prenota .col1{
     flex: 1;
     height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .prenota .col2{
@@ -149,7 +155,27 @@
 }
 
 .prenota .textContainer{
-    padding: 80px;
+    width: 820px;
+    font-size: 28px;
+}
+
+.cards{
+    font-size: 28px;
+    flex-direction: column;
+}
+
+
+.cards .title {
+    color: #545454;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.cards .container {
+    display: grid;
+    grid-template-columns: 370px 370px 370px;
+    column-gap: 50px;
+    row-gap: 50px;
 }
 
 .adatta .image{
@@ -178,4 +204,13 @@
 }
 .immagineBagno{
     background-image: url("../Assets/images/bagno.webp");
+}
+
+.block-2{
+    background-image: url("../Assets/images/sfondo2.webp");
+    font-size: 28px;
+}
+
+.block-2 .textContainer {
+    width: 46em;
 }

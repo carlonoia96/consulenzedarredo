@@ -1,0 +1,23 @@
+.card {
+  background-color: #ff1616;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  border-radius: 30px;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 30px;
+  position: relative;
+  cursor: pointer;
+}
+
+.cardStyleOpen {
+  font-size: 1em;
+}
+
+.cardStyleClose {
+  font-size: .6em;
+}
