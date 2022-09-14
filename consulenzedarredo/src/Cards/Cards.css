@@ -1,5 +1,5 @@
 .card {
-  background-color: #ff1616;
+  background-color: #ff5757;
   height: 300px;
   display: flex;
   align-items: center;
@@ -15,6 +15,18 @@
   flex-direction: column;
 }
 
+.card:after {
+  content: '';
+  position: absolute;
+  top: 16px;
+  left: 15px;
+  height: 360px;
+  width: 370px;
+  background-color: #ff1616;
+  border-radius: 30px;
+  z-index: -1;
+}
+
 .cardStyleOpen {
   font-size: 1em;
 }
@@ -24,6 +36,5 @@
 }
 
 .card img{
-  width: 10em;
-  height: auto;
+  height: 6em;
 }
