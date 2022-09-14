@@ -115,8 +115,8 @@ class Home extends React.Component<HomeProps> {
           </p>
           <p>
             Tu non dovrai fare altro che lasciare ai tuoi operai di fiducia tutti i lavori esecutivi ... chi del
-            mestiere saprà comprendere le varie indicazioni.
-            <span className={"color-red"}>Non dovrai preoccuparti di nulla</span>.
+            mestiere saprà comprendere le varie indicazioni. <br/>
+            <span className={"color-red"}>Non dovrai preoccuparti di nulla</span>!
           </p>
           <p>
             Ad ogni modo io gestirò soltanto pochi progetti alla volta in modo tale da essere sempre al tuo fianco per
