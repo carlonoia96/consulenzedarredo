@@ -8,6 +8,7 @@ interface CardsProps {
 }
 
 class Cards extends React.Component<{}, CardsProps> {
+
   constructor(props: any) {
     super(props);
     this.state = {
@@ -38,9 +39,13 @@ class Cards extends React.Component<{}, CardsProps> {
     }
   }
 
-  pintImg(card:CardModel){
-    if(card.img && card.img != "" && !card.open){
-      return <img src={require(`../${card.img}`)}/>
+  pintImg(card: CardModel) {
+    if (card.img && !card.open) {
+      return (
+        <div className={"image"}>
+          <img src={require(`../${card.img}`)}/>
+        </div>
+      )
     }
   }
 
@@ -54,9 +59,7 @@ class Cards extends React.Component<{}, CardsProps> {
                 <p className={`text ${this.cardStyle(card)}`}>
                   {this.showCardText(card)}
                 </p>
-                <div className={"image"}>
-                  {this.pintImg(card)}
-                </div>
+                {this.pintImg(card)}
               </div>
             )
           )

@@ -7,31 +7,26 @@
   },
   {
     "title": "SCELTA ARREDO e COMPLEMENTI",
-    "img": "",
     "description": "Ti mostro immagini di interni che ti aiuteranno a comprendere il tuo stile e a scegliere gli arredi giusti, nonché i loro complementi. ",
     "open": false
   },
   {
     "title": "MOODBOARD",
-    "img": "",
     "description": "Tavola ricca di immagini illustrative, in cui inserisco la palette colori, i materiali scelti, restituendo una visione d'insieme del concept creativo.",
     "open": false
   },
   {
     "title": "ESECUTIVI",
-    "img": "",
     "description": "Layout demolizioni/costruzioni, schema impianto elettrico,  impianto idraulico, sezioni verticali, schema posa pavimenti/rivestimenti o eventuali dettagli esecutivi",
     "open": false
   },
   {
     "title": "RENDER",
-    "img": "",
     "description": "Immagini fotorealistiche realizzate con software di rendering che illustrano al meglio come dovrà essere il progetto.",
     "open": false
   },
   {
     "title": "SHOPPING LIST",
-    "img": "",
     "description": "Lista contente link di arredi e complementi di arredo, con indicazioni di colore, produttore, ecc.  ",
     "open": false
   }

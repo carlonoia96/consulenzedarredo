@@ -12,6 +12,7 @@
   padding: 30px;
   position: relative;
   cursor: pointer;
+  flex-direction: column;
 }
 
 .cardStyleOpen {
@@ -20,4 +21,9 @@
 
 .cardStyleClose {
   font-size: .6em;
+}
+
+.card img{
+  width: 10em;
+  height: auto;
 }
