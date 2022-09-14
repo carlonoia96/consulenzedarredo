@@ -9,12 +9,12 @@ interface IconsTextProps {
 class IconsText extends React.Component<IconsTextProps>{
   render() {
     return (<>
-      <div className={"iconsText-container"}>
+      <div className={"iconsText"}>
         {
           this.props.rows.map(row=>(
             <div className={"row"}>
               <div className={"icon"}>
-                <i className={`${row.icon}`}></i>
+                <div className={`${row.icon}`}/>
               </div>
               <div className={"text"}>
                 <p>{row.text}</p>

@@ -1,1 +1,29 @@
-.IconsText {}
+.iconsText .icon .camera{
+  background-image: url("../Assets/images/camera.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: .1em;
+}
+
+.iconsText .icon>div {
+  height: 1em;
+  width: 1em;
+}
+
+.iconsText .row{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.iconsText p{
+  margin-top: 0;
+  margin-left: 1em;
+}
+
+
+.iconsText{
+  width: 40em;
+}

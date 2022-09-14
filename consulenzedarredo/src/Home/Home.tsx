@@ -67,7 +67,7 @@ class Home extends React.Component<HomeProps> {
         </div>
       </div>
 
-      <div>
+      <div className={"cosaOtterrai"}>
         <div className={"title"}>
           <p>
             Cosa otterrai con la video call

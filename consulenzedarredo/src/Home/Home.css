@@ -230,3 +230,15 @@
 .block-2 .textContainer {
     width: 46em;
 }
+
+
+.cosaOtterrai{
+    font-size: 28px;
+}
+
+.cosaOtterrai .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
