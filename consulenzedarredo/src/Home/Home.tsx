@@ -1,6 +1,7 @@
 import React, {FC} from 'react';
 import './Home.css';
 import Cards from "../Cards/Cards";
+import IconsText from "../IconsText/IconsText";
 
 interface HomeProps {
 }
@@ -63,6 +64,45 @@ class Home extends React.Component<HomeProps> {
       <div className={"cards"}>
         <div className={"container"}>
           <Cards/>
+        </div>
+      </div>
+
+      <div>
+        <div className={"title"}>
+          <p>
+            Cosa otterrai con la video call
+          </p>
+        </div>
+        <div className={"container"}>
+          <IconsText rows={[
+            {
+              icon:"camera",
+              text:"potrai farti conoscere e spiegarmi le tue necessità"
+            },
+            {
+              icon:"camera",
+              text:"mi conoscerai e vedrai come lavoro"
+            },
+            {
+              icon:"camera",
+              text:"conoscerai meglio i diversi stili di arredamento per decidere quale si avvicina di più ai tuoi gusti"
+            },
+            {
+              icon:"camera",
+              text:"potrai elencarmi tutte le tue richieste/desideri per avere la casa dei tuoi sogni"
+            },
+            {
+              icon:"camera",
+              text:"iniziare ad avere un'idea più chiara di come potrà diventare la tua nuova casa"
+            },
+            {
+              icon:"camera",
+              text:"avere una panoramica del costo per il restyling della tua casa \n"
+            }
+          ]}/>
+          <p>
+            Al termine della videocall potrai decidere in totale autonomia se affidarmi il progetto!
+          </p>
         </div>
       </div>
 
