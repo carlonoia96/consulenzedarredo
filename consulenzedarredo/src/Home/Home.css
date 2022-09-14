@@ -164,6 +164,7 @@
     flex-direction: column;
     display: flex;
     align-items: center;
+    margin-bottom: 5em;
 }
 
 
@@ -234,6 +235,15 @@
 
 .cosaOtterrai{
     font-size: 28px;
+    background-image: url("../Assets/images/sfondoCosaOtterrai.webp");
+    padding-top: 2em;
+    padding-bottom: 5em;
+}
+
+.cosaOtterrai .title{
+    text-align: center;
+    color: #ff1616;
+    font-size: 3.5em;
 }
 
 .cosaOtterrai .container{
@@ -241,4 +251,28 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+.cosaOtterrai .container>p{
+    width: 33.8em;
+}
+
+
+.end {
+    background-image: url("../Assets/images/sfondoEnd.webp");
+    background-position: top;
+    background-repeat: no-repeat;
+    font-size: 28px;
+    height: 39em;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.end .container{
+    text-align: center;
+    width: 50rem;
+    margin-left: -22em;
+    font-size: 1.3em;
 }

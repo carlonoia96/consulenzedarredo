@@ -76,28 +76,28 @@ class Home extends React.Component<HomeProps> {
         <div className={"container"}>
           <IconsText rows={[
             {
-              icon:"camera",
-              text:"potrai farti conoscere e spiegarmi le tue necessità"
+              icon: "camera",
+              text: "potrai farti conoscere e spiegarmi le tue necessità"
             },
             {
-              icon:"camera",
-              text:"mi conoscerai e vedrai come lavoro"
+              icon: "camera",
+              text: "mi conoscerai e vedrai come lavoro"
             },
             {
-              icon:"camera",
-              text:"conoscerai meglio i diversi stili di arredamento per decidere quale si avvicina di più ai tuoi gusti"
+              icon: "camera",
+              text: "conoscerai meglio i diversi stili di arredamento per decidere quale si avvicina di più ai tuoi gusti"
             },
             {
-              icon:"camera",
-              text:"potrai elencarmi tutte le tue richieste/desideri per avere la casa dei tuoi sogni"
+              icon: "camera",
+              text: "potrai elencarmi tutte le tue richieste/desideri per avere la casa dei tuoi sogni"
             },
             {
-              icon:"camera",
-              text:"iniziare ad avere un'idea più chiara di come potrà diventare la tua nuova casa"
+              icon: "camera",
+              text: "iniziare ad avere un'idea più chiara di come potrà diventare la tua nuova casa"
             },
             {
-              icon:"camera",
-              text:"avere una panoramica del costo per il restyling della tua casa \n"
+              icon: "camera",
+              text: "avere una panoramica del costo per il restyling della tua casa"
             }
           ]}/>
           <p>
@@ -105,65 +105,25 @@ class Home extends React.Component<HomeProps> {
           </p>
         </div>
       </div>
-
-      <div className={"adatta default-block-size flex-column"}>
-        <p className={"title color-red"}>
-          E' adatta a te se...
-        </p>
-        <div className={"textContainer"}>
-          <div className={"row"}>
-            <div className={"col1"}>
-              <div className={"image"}/>
-            </div>
-            <div className={"col2 text-center"}>
-              <p>
-                stai comprando/hai comprato casa e vorresti suddividere gli spazi al meglio
-              </p>
-            </div>
-          </div>
-          <div className={"row"}>
-            <div className={"col1"}>
-              <div className={"image"}/>
-            </div>
-            <div className={"col2 text-center"}>
-              <p>
-                vuoi capire come sarà suddivisa e arredata la tua casa grazie ad un progetto in 3D
-              </p>
-            </div>
-          </div>
-          <div className={"row"}>
-            <div className={"col1"}>
-              <div className={"image"}/>
-            </div>
-            <div className={"col2 text-center"}>
-              <p>
-                vuoi mantenere gli arredi che hai, senza cambiarli, ma non sai come e dove posizionarli
-              </p>
-            </div>
-          </div>
-          <div className={"row"}>
-            <div className={"col1"}>
-              <div className={"image"}/>
-            </div>
-            <div className={"col2 text-center"}>
-              <p>
-                hai bisogno di ridistribuire i tuoi spazi
-              </p>
-            </div>
-          </div>
-          <div className={"row"}>
-            <div className={"col1"}>
-              <div className={"image"}/>
-            </div>
-            <div className={"col2 text-center"}>
-              <p>
-                vuoi scoprire se una casa fa a caso tuo e ti serve l'idea giusta in visuale 2D e 3D per capirlo
-              </p>
-            </div>
-          </div>
+      <div className={"geneic-block default-block-size immagineBagno"}/>
+      <div className={"end geneic-block"}>
+        <div className={"container"}>
+          <p>
+            Sarò in grado di gestire il progetto di casa tua, ovunque essa si trovi, in quanto <span
+            className={"color-red"}>ti fornirò tutto il
+            materiale tecnico</span> che hai visto poco fa.
+          </p>
+          <p>
+            Tu non dovrai fare altro che lasciare ai tuoi operai di fiducia tutti i lavori esecutivi ... chi del
+            mestiere saprà comprendere le varie indicazioni.
+            <span className={"color-red"}>Non dovrai preoccuparti di nulla</span>.
+          </p>
+          <p>
+            Ad ogni modo io gestirò soltanto pochi progetti alla volta in modo tale da essere sempre al tuo fianco per
+            qualunque necessità.
+          </p>
         </div>
       </div>
-      <div className={"geneic-block default-block-size immagineBagno"}/>
     </>);
   }
 
